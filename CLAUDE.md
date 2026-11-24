@@ -7,6 +7,7 @@ Canvas·LearningX(고려대 LMS)를 Claude Code에 연결해 자료 기반 학�
 - `canvas-lms-claude/` — 로컬 플러그인 마켓플레이스 `canvas-lms-local`. 플러그인 `canvas-lms-for-agents`(MCP 서버 `canvas-lms` + 스킬 `canvas-lms`, `setup`, `study`, `lms-calendar`). 출처는 `canvas-lms-claude/UPSTREAM.md`.
 - `.claude/settings.json` — 이 마켓플레이스·플러그인 활성화, 읽기 전용 LMS 도구 허용, `NODE_USE_ENV_PROXY=1`(프록시 환경에서 Node fetch가 프록시를 쓰도록 함. 프록시가 없으면 영향 없음).
 - `scripts/verify-connection.mjs` — Canvas 토큰과 과목별 LearningX(LTI) 세션을 읽기 전용으로 점검한다.
+- `scripts/lms-deadlines.mjs` — 캘린더 대조용 마감 후보(과제·주차학습·캘린더·공지·강의계획·공지 게시판 본문)를 읽기 전용으로 모아 `state/calendar/lms-deadlines.json`에 저장한다.
 - `scripts/sync-upstream.sh` — upstream 플러그인 갱신(우리 스킬 유지).
 - `state/`, `study/`, `library/` — 로컬 전용 기록, 진도, 내려받은 자료. **git 제외.**
 

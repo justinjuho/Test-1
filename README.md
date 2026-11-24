@@ -71,7 +71,7 @@ canvas-lms-claude/           로컬 마켓플레이스 canvas-lms-local (설치 
   plugin/                    canvas-lms-for-agents 플러그인 (MCP 서버 번들 + 스킬 4개)
   UPSTREAM.md                출처 commit과 변경 사항
 docs/                        캘린더 연동·예약 작업 안내
-scripts/                     연결 점검, upstream 갱신
+scripts/                     연결 점검, 마감 후보 수집, upstream 갱신
 state/  study/  library/     로컬 전용 기록·진도·자료 (git 제외)
 ```
 

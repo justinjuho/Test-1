@@ -24,6 +24,8 @@ LMS는 **조회 전용**이다. 쓰기는 Google 기본 캘린더 `primary`에�
 
 ## 2. LMS에서 후보 수집 (과목마다, 모든 페이지)
 
+작업 폴더에 `scripts/lms-deadlines.mjs`가 있으면 먼저 `node scripts/lms-deadlines.mjs`(프록시 환경에서는 `NODE_USE_ENV_PROXY=1`)로 아래 출처를 한 번에 모은 `state/calendar/lms-deadlines.json`을 읽는다. 세션에 canvas-lms MCP 도구가 없을 때도 이 방법을 쓴다. 스크립트가 없거나 실패하면 도구로 직접 조회한다.
+
 과목마다 아래를 `fresh=true`로 조회한다. `nextOffset`이 있으면 끝까지 따라가고, `warnings`나 401/403이 난 경로는 **부분 조회**로 기록한다. 한 경로가 실패해도 나머지는 계속 조회한다.
 
 | 출처 | 도구 | 얻는 것 |
