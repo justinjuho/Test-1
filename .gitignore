@@ -1,0 +1,12 @@
+# Private local data — never commit (public repository)
+state/*
+!state/README.md
+!state/calendar/
+state/calendar/*
+!state/calendar/overrides.example.json
+study/*
+!study/README.md
+library/
+.env
+*.token
+node_modules/

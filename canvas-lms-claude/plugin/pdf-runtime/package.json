@@ -1,0 +1,9 @@
+{
+  "name": "canvas-lms-pdf-runtime",
+  "version": "0.3.0",
+  "private": true,
+  "dependencies": {
+    "@napi-rs/canvas": "1.2.0",
+    "pdfjs-dist": "6.5.438"
+  }
+}

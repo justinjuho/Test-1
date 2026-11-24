@@ -1,0 +1,7 @@
+{
+  "completed": [
+    { "course": "과목명 일부", "title": "종이 과제 1", "note": "수업 시간에 종이로 제출 완료", "recordedAt": "2026-11-24" },
+    { "course": "과목명 일부", "title": "연계상담", "note": "상담 완료", "recordedAt": "2026-11-24" }
+  ],
+  "keepManualEvents": true
+}

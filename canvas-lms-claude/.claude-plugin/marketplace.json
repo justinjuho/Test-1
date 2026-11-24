@@ -1,0 +1,13 @@
+{
+  "name": "canvas-lms-local",
+  "metadata": { "description": "고려대 Canvas·LearningX 학습 플러그인 로컬 설치 묶음 (upstream: iamnotfemale/canvas-lms-for-agents)" },
+  "owner": { "name": "justinjuho" },
+  "plugins": [
+    {
+      "name": "canvas-lms-for-agents",
+      "source": "./plugin",
+      "description": "고려대 LMS 자료 학습·공지·과제·출석 조회 + 학습 세션 + Google 캘린더 일정 대조",
+      "version": "0.5.0-local.1"
+    }
+  ]
+}

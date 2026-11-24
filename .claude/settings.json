@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "env": {
+    "NODE_USE_ENV_PROXY": "1"
+  },
+  "permissions": {
+    "allow": [
+      "mcp__plugin_canvas-lms-for-agents_canvas-lms__connection_status",
+      "mcp__plugin_canvas-lms-for-agents_canvas-lms__list_courses",
+      "mcp__plugin_canvas-lms-for-agents_canvas-lms__find_materials",
+      "mcp__plugin_canvas-lms-for-agents_canvas-lms__course_info",
+      "mcp__plugin_canvas-lms-for-agents_canvas-lms__read_boards",
+      "mcp__plugin_canvas-lms-for-agents_canvas-lms__cache_status",
+      "mcp__plugin_canvas-lms-for-agents_canvas-lms__download_pdf",
+      "mcp__plugin_canvas-lms-for-agents_canvas-lms__index_pdf",
+      "mcp__plugin_canvas-lms-for-agents_canvas-lms__read_pdf",
+      "mcp__plugin_canvas-lms-for-agents_canvas-lms__render_pdf_page"
+    ]
+  },
+  "enabledPlugins": {},
+  "extraKnownMarketplaces": {}
+}
