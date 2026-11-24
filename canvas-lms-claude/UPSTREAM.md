@@ -5,7 +5,7 @@
 | 항목 | 값 |
 |---|---|
 | Upstream commit | `54c7ac9977705b691dfac34c7e8be4abde13e70c` (plugin 0.5.0) |
-| 이 묶음 버전 | `0.5.0-local.1` |
+| 이 묶음 버전 | `0.5.0-local.2` |
 | 마켓플레이스 이름 | `canvas-lms-local` |
 | 설치 ID | `canvas-lms-for-agents@canvas-lms-local` |
 

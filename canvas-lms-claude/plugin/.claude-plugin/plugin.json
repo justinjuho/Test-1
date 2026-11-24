@@ -1,6 +1,6 @@
 {
   "name": "canvas-lms-for-agents",
-  "version": "0.5.0-local.1",
+  "version": "0.5.0-local.2",
   "description": "고려대 Canvas·LearningX PDF 학습·영상 다운로드와 공지·과제·출석 조회, 학습 세션, LMS 일정의 Google 캘린더 대조",
   "author": { "name": "iamnotfemale" },
   "repository": "https://github.com/iamnotfemale/canvas-lms-for-agents",
